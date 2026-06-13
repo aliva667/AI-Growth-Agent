@@ -25,6 +25,12 @@ npm run build
 3. Output Directory 使用 `dist`。
 4. 部署完成后复制 Vercel 提供的公网 URL。
 
+## GitHub Pages 部署
+
+仓库已包含 `.github/workflows/pages.yml`。在 GitHub 仓库的 Settings → Pages 中选择 GitHub Actions 后，推送 `main` 会自动部署到：
+
+`https://aliva667.github.io/AI-Growth-Agent/`
+
 ## AI 接口预留
 
 当前 MVP 使用 `src/app.js` 中的规则版 `aiProvider`，包含：
